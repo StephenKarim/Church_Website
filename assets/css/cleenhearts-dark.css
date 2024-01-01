@@ -1,16 +1,16 @@
 :root {
-  --cleenhearts-white: #24102f;
-  --cleenhearts-white-rgb: toRGB(#24102f);
-  --cleenhearts-white2: #351c42;
-  --cleenhearts-white2-rgb: toRGB(#351c42);
+  --cleenhearts-white: #24102F;
+  --cleenhearts-white-rgb: toRGB(#24102F);
+  --cleenhearts-white2: #351C42;
+  --cleenhearts-white2-rgb: toRGB(#351C42);
   --cleenhearts-white3: #757277;
   --cleenhearts-white3-rgb: toRGB(#757277);
-  --cleenhearts-white4: #200c2a;
-  --cleenhearts-white4-rgb: toRGB(#200c2a);
+  --cleenhearts-white4: #200C2A;
+  --cleenhearts-white4-rgb: toRGB(#200C2A);
   --cleenhearts-dark: #fff;
   --cleenhearts-dark-rgb: toRGB(#fff);
-  --cleenhearts-dark2: #efece7;
-  --cleenhearts-dark2-rgb: toRGB(#efece7);
+  --cleenhearts-dark2: #EFECE7;
+  --cleenhearts-dark2-rgb: toRGB(#EFECE7);
   --cleenhearts-base: #fff;
   --cleenhearts-base-rgb: toRGB(#fff);
 }
@@ -115,12 +115,10 @@
 
 .service-one__number {
   color: var(--cleenhearts-white2);
-  text-shadow: 1px 1px 0 var(--cleenhearts-white3),
-    -1px -1px 0 var(--cleenhearts-white3), 1px -1px 0 var(--cleenhearts-white3),
-    -1px 1px 0 var(--cleenhearts-white3), 1px 1px 0 var(--cleenhearts-white3);
+  text-shadow: 1px 1px 0 var(--cleenhearts-white3), -1px -1px 0 var(--cleenhearts-white3), 1px -1px 0 var(--cleenhearts-white3), -1px 1px 0 var(--cleenhearts-white3), 1px 1px 0 var(--cleenhearts-white3);
 }
 
-.crew-group__image,
+.volunteer-group__image,
 .hero-banner__content__author img {
   border-color: var(--cleenhearts-base);
 }
@@ -202,7 +200,7 @@
   border-color: var(--cleenhearts-dark2);
 }
 
-.footer-widget__subscribe input[type="email"],
+.footer-widget__subscribe input[type=email],
 .donation-card__progress__title,
 .about-two__text {
   color: var(--cleenhearts-white3);
@@ -238,11 +236,7 @@
 }
 
 .worldwide-one--home {
-  background: linear-gradient(
-    99deg,
-    #200c2a 27.6%,
-    rgba(32, 12, 42, 0.37) 99.42%
-  );
+  background: linear-gradient(99deg, #200C2A 27.6%, rgba(32, 12, 42, 0.37) 99.42%);
 }
 
 .worldwide-one--home .worldwide-one__bg::after {
@@ -263,7 +257,7 @@
 }
 
 .event-card-four__meta li + li::before {
-  background-color: #d9d9d9;
+  background-color: #D9D9D9;
 }
 
 .testimonials-card__bg {
@@ -295,10 +289,10 @@
 .footer-two .footer-widget__links li,
 .footer-two .footer-widget__map,
 .footer-two .footer-widget__about-text {
-  color: #d7d3cb;
+  color: #D7D3CB;
 }
 
-.footer-widget__subscribe button[type="submit"]:hover {
+.footer-widget__subscribe button[type=submit]:hover {
   color: var(--cleenhearts-secondary);
 }
 /*# sourceMappingURL=cleenhearts-dark.css.map */
